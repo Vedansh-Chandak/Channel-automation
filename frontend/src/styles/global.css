@@ -1,0 +1,76 @@
+:root {
+  --bg-dark: #050505;
+  --text-main: #ffffff;
+  --text-muted: #a0a0a0;
+  --accent-orange: #ff5722;
+  --accent-gradient: linear-gradient(90deg, #ff7a00, #ff3d00);
+  --glass-bg: rgba(20, 20, 22, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --input-bg: rgba(0, 0, 0, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-dark);
+  background-image: radial-gradient(circle 800px at 50% 10%, rgba(255, 87, 34, 0.15) 0%, transparent 60%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--text-main);
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+input, select, textarea {
+  font-family: inherit;
+  color: var(--text-main);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: var(--bg-dark);
+  color: var(--text-main);
+  font-size: 18px;
+  font-weight: 500;
+}
