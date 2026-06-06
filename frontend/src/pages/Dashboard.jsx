@@ -704,8 +704,8 @@ export default function Dashboard() {
               <span className="material-symbols-outlined">bolt</span>
             </div>
             <div>
-              <div className="ca-logo-title">Channel Auto</div>
-              <div className="ca-logo-sub">Pro Automation</div>
+              <div className="ca-logo-title">AutoTube</div>
+              
             </div>
           </div>
 
@@ -728,20 +728,7 @@ export default function Dashboard() {
             </Link>
           </nav>
 
-          <div className="ca-sidebar-footer">
-            <div className="ca-storage">
-              <div className="ca-storage-label">Storage Used</div>
-              <div className="ca-storage-bar">
-                <div className="ca-storage-fill" />
-              </div>
-              <div className="ca-storage-text">7.2GB / 10GB</div>
-            </div>
-            <button className="ca-upgrade-btn">Upgrade Pro</button>
-            <a href="#" className="ca-help-link">
-              <span className="material-symbols-outlined">help</span>
-              Help Center
-            </a>
-          </div>
+         
         </aside>
 
         {/* Main */}

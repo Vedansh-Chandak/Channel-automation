@@ -405,8 +405,8 @@ export default function CreateVideo() {
               <span className="material-symbols-outlined">bolt</span>
             </div>
             <div className="cv-logo-text">
-              <div className="cv-logo-title">Channel Auto</div>
-              <div className="cv-logo-sub">Pro Automation</div>
+              <div className="cv-logo-title">AutoTube</div>
+              
             </div>
           </div>
           <nav className="cv-nav">
@@ -423,17 +423,7 @@ export default function CreateVideo() {
               Channels
             </Link>
           </nav>
-          <div className="cv-sidebar-bottom">
-            <div className="cv-upgrade-box">
-              <div className="cv-upgrade-label">Pro Plan</div>
-              <div className="cv-upgrade-desc">Unlock unlimited generation and 4K exports.</div>
-              <button className="cv-upgrade-btn">Upgrade Pro</button>
-            </div>
-            <a href="#" className="cv-help-link">
-              <span className="material-symbols-outlined">help</span>
-              Help Center
-            </a>
-          </div>
+         
         </aside>
 
         {/* Main */}

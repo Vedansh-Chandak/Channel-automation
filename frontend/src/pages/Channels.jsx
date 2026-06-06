@@ -502,8 +502,8 @@ export default function Channels() {
         {/* Sidebar */}
         <aside className="ch-sidebar">
           <div className="ch-logo">
-            <div className="ch-logo-title">Channel Auto</div>
-            <div className="ch-logo-sub">Pro Automation</div>
+            <div className="ch-logo-title">AutoTube</div>
+           
           </div>
           <nav className="ch-nav">
             <Link to="/dashboard">
@@ -523,17 +523,7 @@ export default function Channels() {
               Create Video
             </Link>
           </nav>
-          <div className="ch-sidebar-footer">
-            <div className="ch-plan-card">
-              <div className="ch-plan-label">Pro Plan</div>
-              <div className="ch-plan-name">Unlimited Shorts</div>
-              <button className="ch-upgrade-btn">Upgrade Pro</button>
-            </div>
-            <a href="#" className="ch-help-link">
-              <span className="material-symbols-outlined">help</span>
-              Help Center
-            </a>
-          </div>
+         
         </aside>
 
         {/* Main */}
